@@ -10,7 +10,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: black;
+  color: white;
 }
+
 
 .footer {
   display: flex;
