@@ -1,5 +1,6 @@
 .container {
   padding: 0 2rem;
+  display: grid;
 }
 
 .main {
@@ -12,6 +13,19 @@
   align-items: center;
   background: black;
   color: white;
+  font-family: 'Kanit', sans-serif;
+}
+.main1 {
+  padding: 4rem 0;
+  display: grid;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background: black;
+  color: white;
+  font-family: 'Kanit', sans-serif;
 }
 
 
